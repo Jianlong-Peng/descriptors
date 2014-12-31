@@ -1,4 +1,4 @@
-in Windows, just run build.bat in CMD. The visual studio solution, 'descriptors.sln', will be generated in the .\build
+in Windows, just double click build.bat in CMD. The visual studio solution, 'descriptors.sln', will be generated in the .\build
 
 in Linux
 > ./build.sh [Debug|Release]
