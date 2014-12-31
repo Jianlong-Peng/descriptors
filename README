@@ -4,7 +4,7 @@ DESCRIPTION
 The molecular descriptors are widely used in the field of QSAR analysis.
 The current project is designed to implement some of widely used descriptors.
 
-Currently, the follwoing types of descriptors are available by `calcDescriptors.exe`
+Currently, the follwoing types of descriptors are available by `tools/calcDescriptors.exe`
 1. constitutional (38)
 2. electrostatic (64)
 3. geometrical (14)
@@ -13,10 +13,10 @@ Currently, the follwoing types of descriptors are available by `calcDescriptors.
 6. topological (38)
 
 For quantum-chemical descriptors, the Mopac output file is needed. For convenience,
-the python script `runMopac.py` is written to do semi-empirical QC calculation using
+the python script `tools/runMopac.py` is written to do semi-empirical QC calculation using
 Mopac with necessary keywords.
 
-While, the python script `fingerprints.py` based on RDKit provides a convenient way
+While, the python script `tools/fingerprints.py` based on RDKit provides a convenient way
 to generate fingerprints, e.g. ECFP, FCFP, MACCS.
 
 Please refer to the `DEPENDENCE` section for the dependent libraries.
@@ -36,20 +36,20 @@ DEPENDENCE
     program as well as a library that provides the functionality of MOPAC7 to other programs.
     (copied from http://sourceforge.net/projects/mopac7/)
   - sourceforge: http://sourceforge.net/projects/mopac7/
-  - the 'mopac7.exe' is compiled from the source code using VS 2010.
+  - the 'tools/mopac7.exe' is compiled from the source code using VS 2010.
 
 3. RDKit
   - a toolkit for cheminformatics and machine learning software.
   - it has corresponding functions to generate fingerprints, and the python script
-    `fingrprint.py` is just written to make it more convient.
+    `tools/fingrprint.py` is just written to make it more convient.
   - main page: http://www.rdkit.org/
     sourceforge: http://sourceforge.net/projects/rdkit/
 
 
 ATTENTION
 =========
-1. OpenBabel should be installed in order to run `calcDescriptors.exe`
-2. the python wrappers of RDKit should be installed in order to run `fingerprint.py`
+1. OpenBabel 2.3.2 should be installed in order to run `tools/calcDescriptors.exe`
+2. the python wrappers of RDKit should be installed in order to run `tools/fingerprint.py`
 
 
 CONTACT
