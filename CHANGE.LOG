@@ -1,0 +1,4 @@
+2014.02.13   fixed a bug when extracting SIGMA-PI BOND-ORDER MATRIX
+2014.02.17   support to read and predict each moleule from a multi-molecule file
+2014.03.13   GETAWAY 
+2014.08.02   using CMake to manager the project

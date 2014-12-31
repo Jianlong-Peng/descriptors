@@ -1,0 +1,17 @@
+in Windows, just run build.bat in CMD. The visual studio solution, 'descriptors.sln', will be generated in the .\build
+
+in Linux
+> ./build.sh [Debug|Release]
+> cd [Debug|Release]
+> make; make install
+
+OPTIONS
+======
+-DCMAKE_INSTALL_PREFIX=where_to_install               specify the dir to install the library
+-DBABEL_INCLUDE_DIR=where_openbabel_include           specify where to find <openbabel/xx.h>
+-DBABEL_LIB_DIR=where_openbabel.so                    specify where to find openbabel.dll or libopenbabel.so
+-DBUILD_SHARED=ON                                     enable shared build
+-DCMAKE_BUILD_TYPE=Debug|Release					  specify Debug or Release mode
+
+
+HOW to automatically add -DUSING_DYNAMIC_LIBS when compiling other programs with descriptors.dll?????????????????
