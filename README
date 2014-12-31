@@ -1,16 +1,3 @@
-CONTENT
-=======
-calcDescriptors.exe       program to calculate molecular descriptors
-fingerprints.py           python script to generate fingerprints using RDKit
-mopac7.exe                program to do semi-empirical QC calculation
-README                    this file
-runMopac.py               run `mopac7.exe` with appropriate key words
-
-
-USAGE
-=====
-please run `calcDescriptors.exe` and `fingerprints.py` to see the options.
-
 
 DESCRIPTION
 ===========
